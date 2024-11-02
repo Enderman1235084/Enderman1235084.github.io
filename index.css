@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+#menuBar {
+    margin: 0px;
+    padding: 0px;
+    height: 65px;
+    background-color: #222222;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+#mainContent {
+    margin: 0px;
+    padding: 5px;
+}
+
+.menuButtons {
+    margin: 0px;
+    padding-left: 5px;
+    border-style: none;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #222222;
+}
