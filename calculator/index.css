@@ -1,8 +1,12 @@
+:root {
+    --accent-clr: #00c8ff;
+}
+
 body {
 	margin: 0px;
 	color: #FFFFFF;
 	background-color: #222222;
-	font-family: "Sans-Serif";
+	font-family: "Segoe UI";
 }
 
 #menuBar {
@@ -61,7 +65,7 @@ body {
 	margin-top: 4px;
 	margin-bottom: 4px;
 	color: #FFFFFF;
-	background-color: #00c8ff;
+	background-color: var(--accent-clr);
 }
 
 .buttons:active {
@@ -74,7 +78,7 @@ body {
 .bButtons:active {
 	border-style: solid;
 	border-width: 2px;
-	border-color: #00c8ff;
+	border-color: var(--accent-clr);
 	box-shadow: 1px 1px 2px #111111 inset;
 }
 
