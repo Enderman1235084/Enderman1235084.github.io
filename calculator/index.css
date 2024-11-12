@@ -23,6 +23,10 @@ body {
 	background-color: #222222;
 }
 
+.menuButtons:active {
+	background-color: var(--accent-clr);
+}
+
 #mainContent {
 	margin: 0px;
 	padding: 0px;
