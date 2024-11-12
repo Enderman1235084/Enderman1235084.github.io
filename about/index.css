@@ -36,7 +36,7 @@ body {
     background-color: #222222;
 }
 
-.menuButtons:hover {
+.menuButtons:active {
     background-color: var(--accent-clr);
 }
 
