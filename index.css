@@ -1,3 +1,7 @@
+:root {
+    --accent-clr: #00c8ff;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -26,4 +30,8 @@ body {
     height: 100%;
     color: #FFFFFF;
     background-color: #222222;
+}
+
+.menuButtons:hover {
+    background-color: var(--accent-clr);
 }
