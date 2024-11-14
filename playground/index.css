@@ -10,7 +10,7 @@ body {
     font-family: "Segoe UI";
 }
 
-#menuBar {
+nav {
     margin: 0px;
     padding: 0px;
     height: 65px;
@@ -32,7 +32,7 @@ body {
     background-color: var(--accent-clr);
 }
 
-#mainContent {
+main {
     margin: 0px;
     padding: 5px;
 }
