@@ -32,7 +32,7 @@ nav {
 }
 
 .menuButtons:active {
-    background-color: var(--accent-clr);
+    background-color: #111111;
 }
 
 main {
