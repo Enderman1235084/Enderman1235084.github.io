@@ -14,6 +14,7 @@ body {
 }
 
 nav {
+	display: flex;
 	height: 65px;
 	color: #FFFFFF;
 	background-color: #222222;
