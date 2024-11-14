@@ -10,7 +10,7 @@ body {
     font-family: "Segoe UI";
 }
 
-#menuBar {
+nav {
     margin: 0px;
     padding: 0px;
     height: 65px;
@@ -18,13 +18,8 @@ body {
     box-shadow: 0px 0px 5px #000000;
 }
 
-#mainContent {
-    margin: 0px;
-    padding: 5px;
-}
-
-#about {
-    width: 50%;
+#icon {
+    height: 100%;
 }
 
 .menuButtons {
@@ -38,6 +33,15 @@ body {
 
 .menuButtons:active {
     background-color: var(--accent-clr);
+}
+
+main {
+    margin: 0px;
+    padding: 5px;
+}
+
+#about {
+    width: 50%;
 }
 
 #by {
