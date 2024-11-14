@@ -10,6 +10,10 @@ body {
     font-family: "Segoe UI";
 }
 
+#icon {
+    height: 100%;
+}
+
 nav {
     margin: 0px;
     padding: 0px;
