@@ -9,7 +9,7 @@ body {
 	font-family: "Segoe UI";
 }
 
-#menuBar {
+nav {
 	height: 65px;
 	color: #FFFFFF;
 	background-color: #222222;
@@ -24,10 +24,10 @@ body {
 }
 
 .menuButtons:active {
-	background-color: var(--accent-clr);
+	background-color: #111111;
 }
 
-#mainContent {
+main {
 	margin: 0px;
 	padding: 0px;
 }
