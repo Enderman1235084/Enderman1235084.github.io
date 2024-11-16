@@ -2,6 +2,11 @@
     --accent-clr: #00c8ff;
 }
 
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
