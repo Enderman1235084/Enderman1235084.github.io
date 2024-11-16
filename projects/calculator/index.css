@@ -1,0 +1,105 @@
+:root {
+    --accent-clr: #00c8ff;
+}
+
+body {
+	margin: 0px;
+	color: #FFFFFF;
+	background-color: #222222;
+	font-family: "Segoe UI";
+}
+
+#icon {
+	height: 100%;
+}
+
+nav {
+	display: flex;
+	height: 65px;
+	color: #FFFFFF;
+	background-color: #222222;
+	box-shadow: 0px 0px 5px #000000;
+}
+
+.menuButtons {
+	height: 100%;
+	border-style: none;
+	color: #FFFFFF;
+	background-color: #222222;
+}
+
+.menuButtons:active {
+	background-color: #111111;
+}
+
+main {
+	margin: 0px;
+	padding: 0px;
+}
+
+#calculatorBody {
+	background-color: #333333;
+	border-radius: 5px;
+	width: 249px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 15px;
+	box-shadow: 0px 0px 5px #000000;
+}
+
+#buttonDiv {
+	margin-top: 5px;
+}
+
+.buttons {
+	border-style: none;
+	border-radius: 10px;
+	width: 50px;
+	height: 42px;
+	font-size: 28px;
+	margin: 4.491px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	color: #FFFFFF;
+	background-color: #222222;
+}
+
+.bButtons {
+	border-style: none;
+	border-radius: 10px;
+	width: 50px;
+	height: 42px;
+	font-size: 28px;
+	margin: 4.491px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	color: #FFFFFF;
+	background-color: var(--accent-clr);
+}
+
+.buttons:active {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #222222;
+	box-shadow: 1px 1px 2px #111111 inset;
+}
+
+.bButtons:active {
+	border-style: solid;
+	border-width: 2px;
+	border-color: var(--accent-clr);
+	box-shadow: 1px 1px 2px #111111 inset;
+}
+
+#resultWindow {
+	border-style: none;
+	border-radius: 10px;
+	margin-bottom: 0px;
+	padding: 5px;
+	width: 239px;
+	height: 41px;
+	font-size: 28px;
+	color: #FFFFFF;
+	background-color: #222222;
+	text-align: right;
+}
