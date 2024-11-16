@@ -11,29 +11,34 @@ body {
 }
 
 nav {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    height: 65px;
-    background-color: #222222;
+    height: 60px;
     box-shadow: 0px 0px 5px #000000;
 }
 
-#icon {
+nav ul {
+    padding-left: 0;
+    list-style: none;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.menuButtons {
-    margin: 0px;
-    padding-left: 5px;
-    border-style: none;
+nav a {
+    padding: 0 20px;
     height: 100%;
+    display: flex;
+    align-items: center;
     color: #FFFFFF;
-    background-color: #222222;
+    text-decoration: none;
 }
 
-.menuButtons:active {
-    background-color: #111111;
+nav li:first-child {
+    margin-right: auto;
+}
+
+#icon {
+    height: 75%;
 }
 
 main {
