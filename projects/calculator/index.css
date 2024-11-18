@@ -2,39 +2,57 @@
     --accent-clr: #00c8ff;
 }
 
-body {
-	margin: 0px;
-	color: #FFFFFF;
-	background-color: #222222;
-	font-family: "Segoe UI";
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#icon {
-	height: 100%;
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-family: "Segoe UI";
 }
 
 nav {
-	display: flex;
-	height: 65px;
-	color: #FFFFFF;
-	background-color: #222222;
-	box-shadow: 0px 0px 5px #000000;
+    height: 60px;
+    box-shadow: 0px 0px 5px #000000;
 }
 
-.menuButtons {
-	height: 100%;
-	border-style: none;
-	color: #FFFFFF;
-	background-color: #222222;
+nav ul {
+    padding-left: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.menuButtons:active {
-	background-color: #111111;
+nav ul li {
+    height: 100%;
+}
+
+nav a {
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+#icon {
+    height: 75%;
 }
 
 main {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 5px;
 }
 
 #calculatorBody {
