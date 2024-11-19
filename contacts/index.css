@@ -53,30 +53,36 @@ nav li:first-child {
 main {
     margin: 0px;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #title {
-    padding: 5px 10px;
-    margin: auto;
-    border-style: line;
-    border-width: 2px;
+    padding: 10px 15px;
+    margin: 10px;
+    text-align: center;
+    border-style: none;
     border-radius: 15px;
     background-color: #212121;
     box-shadow: 1px 1px 5px #000000;
 }
 
 #contacts {
-    width: 50vw;
+    width: 85vw;
     display: flex;
     justify-content: center;
+    margin: auto;
     flex-wrap: wrap;
 }
 
 #contacts div {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
     padding: 5px 10px;
-    width: 25vw;
-    border-style: line;
-    border-width: 2px;
+    border-style: none;
     border-radius: 15px;
     background-color: #212121;
     box-shadow: 1px 1px 5px #000000;
