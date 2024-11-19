@@ -8,6 +8,8 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #222222;
     color: #FFFFFF;
     font-family: "Segoe UI";
