@@ -57,6 +57,7 @@ main {
 
 #title {
     padding: 5px 10px;
+    margin: auto;
     border-style: line;
     border-width: 2px;
     border-radius: 15px;
@@ -68,4 +69,14 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+#contacts div {
+    padding: 5px 10px;
+    width: 25vw;
+    border-style: line;
+    border-width: 2px;
+    border-radius: 15px;
+    background-color: #212121;
+    box-shadow: 1px 1px 5px #000000;
 }
