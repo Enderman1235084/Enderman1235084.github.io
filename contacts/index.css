@@ -63,3 +63,9 @@ main {
     background-color: #212121;
     box-shadow: 1px 1px 5px #000000;
 }
+
+#contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
