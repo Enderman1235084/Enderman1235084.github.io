@@ -57,6 +57,7 @@ main {
 
 #about {
     width: 50vw;
+    margin: auto;
     padding: 5px 15px;
     border-style: line;
     border-width: 2px;
