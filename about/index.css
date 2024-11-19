@@ -54,3 +54,11 @@ main {
     margin: 0px;
     padding: 5px;
 }
+
+#about {
+    width: 50vw;
+    border-style: line;
+    border-width: 2px;
+    background-color: #212121;
+    box-shadow: 1px 1px 5px #000000;
+}
