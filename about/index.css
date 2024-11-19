@@ -3,8 +3,8 @@
 }
 
 * {
-    margin: 0px 0px;
-    padding: 0px 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -29,6 +29,10 @@ nav ul {
     justify-content: flex-end;
 }
 
+nav ul li {
+    height: 100%;
+}
+
 nav a {
     padding: 0 20px;
     height: 100%;
@@ -49,12 +53,4 @@ nav li:first-child {
 main {
     margin: 0px;
     padding: 5px;
-}
-
-#about {
-    width: 50%;
-}
-
-#by {
-    text-align: right;
 }
