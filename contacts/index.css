@@ -54,3 +54,12 @@ main {
     margin: 0px;
     padding: 5px;
 }
+
+#title {
+    padding: 5px 10px;
+    border-style: line;
+    border-width: 2px;
+    border-radius: 15px;
+    background-color: #212121;
+    box-shadow: 1px 1px 5px #000000;
+}
