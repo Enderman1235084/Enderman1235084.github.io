@@ -99,9 +99,10 @@ main {
     color: var(--accent-clr);
     font-size: 16px;
     font-weight: bold;
+    transform: background-color 50ms ease-in-out, color 50ms ease-in-out;
 }
 
 .visitBtns:active {
     background-color: var(--accent-clr);
-    color: #202020;
+    color: #FFFFFF;
 }
