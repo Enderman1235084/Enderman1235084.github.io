@@ -1,5 +1,5 @@
 :root {
-    --hover-clr: #f1f1f1;
+    --hvr-clr: #f1f1f1;
     --bg-clr: #FFFFFF;
     --txt-clr: #000000;
     --accent-clr: #0000ff;
@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--hover-clr);
+    background-color: var(--hvr-clr);
 }
 
 nav li:first-child {
