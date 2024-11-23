@@ -1,6 +1,7 @@
 :root {
-    --hover-clr: #f0f0f0;
-    --bg-clr: #212121;
+    --hover-clr: #f1f1f1;
+    --bg-clr: #FFFFFF;
+    --txt-clr: #000000;
     --accent-clr: #0000ff;
 }
 
@@ -13,7 +14,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: var(--bg-clr);
-    color: #FFFFFF;
+    color: var(--txt-clr);
     font-family: "Segoe UI";
 }
 
@@ -41,8 +42,12 @@ nav a {
     height: 100%;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: var(--txt-clr);
     text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--hover-clr);
 }
 
 nav li:first-child {
@@ -55,6 +60,7 @@ nav li:first-child {
 
 main {
     background-color: var(--bg-clr);
+    color: var(--txt-clr);
     margin: 0px;
     padding: 5px;
 }
