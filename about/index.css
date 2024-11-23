@@ -13,8 +13,8 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #222222;
-    color: #FFFFFF;
+    background-color: var(--bg-clr);
+    color: var(--txt-clr);
     font-family: "Segoe UI";
 }
 
@@ -41,7 +41,7 @@ nav a {
     height: 100%;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: var(--txt-clr);
     text-decoration: none;
 }
 
@@ -58,6 +58,8 @@ nav li:first-child {
 }
 
 main {
+    background-color: var(--bg-clr);
+    color: var(--txt-clr);
     margin: 0px;
     padding: 5px;
 }
