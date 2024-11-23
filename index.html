@@ -1,23 +1,66 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>MyWeb</title>
-        <link rel="stylesheet" href="index.css">
-        <script src="index.js"></script>
-        <meta name="viewport" content="width=device-width">
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="/"><img src="favicon.ico" alt="MyWeb Icon" id="icon">MyWeb</a></li>
-                <li><a href="/projects/">Projects</a></li>
-                <li><a href="/contacts/">Contacts</a></li>
-                <li><a href="/about/">About</a></li>
-            </ul>
-        </nav>
-        <main>
-            <h1>MyWeb</h1>
-            <p>A fun project to use HTML, CSS and JavaScript to make web pages. I am making this just as a hobby, i'd say. It is still under development so some pages may look weird</p>
-        </main>
-    </body>
-</html>
+:root {
+    --hover-clr: #f1f1f1;
+    --bg-clr: #FFFFFF;
+    --txt-clr: #000000;
+    --accent-clr: #0000ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--bg-clr);
+    color: var(--txt-clr);
+    font-family: "Segoe UI";
+}
+
+nav {
+    position: sticky;
+    height: 60px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    height: 100%;
+}
+
+nav a {
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--txt-clr);
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--hover-clr);
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+#icon {
+    height: 75%;
+}
+
+main {
+    background-color: var(--bg-clr);
+    color: var(--txt-clr);
+    margin: 0px;
+    padding: 5px;
+}
