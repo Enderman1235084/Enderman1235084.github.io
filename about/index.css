@@ -65,7 +65,7 @@ nav li:first-child {
 main {
     background-color: var(--bg-clr);
     color: var(--txt-clr);
-    margin: 0px;
+    margin-top: 60px;
     padding: 5px;
 }
 
