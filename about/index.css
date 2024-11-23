@@ -64,17 +64,6 @@ main {
     padding: 5px;
 }
 
-#about {
-    width: 50vw;
-    margin: auto;
-    padding: 5px 15px;
-    border-style: line;
-    border-width: 2px;
-    border-radius: 15px;
-    background-color: #212121;
-    box-shadow: 1px 1px 5px #000000;
-}
-
 #about h2 {
     text-align: center;
 }
