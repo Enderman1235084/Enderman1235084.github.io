@@ -1,5 +1,6 @@
 :root {
     --bg-clr: #FFFFFF;
+    --light-bg-clr: #EEEEEE;
     --hvr-clr: #f0f0f0;
     --txt-clr: #000000;
     --accent-clr: #0000ff;
@@ -13,8 +14,8 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #222222;
-    color: #FFFFFF;
+    background-color: var(--bg-clr);
+    color: var(--txt-clr);
     font-family: "Segoe UI";
 }
 
@@ -45,7 +46,7 @@ nav a {
     height: 100%;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: var(--txt-clr);
     text-decoration: none;
 }
 
@@ -59,7 +60,7 @@ main {
 }
 
 #calculatorBody {
-	background-color: #333333;
+	background-color: var(--light-bg-clr);
 	border-radius: 5px;
 	width: 249px;
 	margin: auto;
@@ -81,8 +82,8 @@ main {
 	margin: 4.491px;
 	margin-top: 4px;
 	margin-bottom: 4px;
-	color: #FFFFFF;
-	background-color: #222222;
+	color: var(--txt-clr);
+	background-color: var(--bg-clr);
 }
 
 .bButtons {
@@ -94,14 +95,14 @@ main {
 	margin: 4.491px;
 	margin-top: 4px;
 	margin-bottom: 4px;
-	color: #FFFFFF;
+	color: var(--txt-clr);
 	background-color: var(--accent-clr);
 }
 
 .buttons:active {
 	border-style: solid;
 	border-width: 2px;
-	border-color: #222222;
+	border-color: var(--bg-clr);
 	box-shadow: 1px 1px 2px #111111 inset;
 }
 
@@ -120,7 +121,7 @@ main {
 	width: 239px;
 	height: 41px;
 	font-size: 28px;
-	color: #FFFFFF;
-	background-color: #222222;
+	color: var(--txt-clr);
+	background-color: var(--bg-clr);
 	text-align: right;
 }
