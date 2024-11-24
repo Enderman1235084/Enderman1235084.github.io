@@ -60,40 +60,6 @@ nav li:first-child {
 
 main {
     margin-top: 60px;
-    padding: 5px;
     background-color: var(--bg-clr);
     color: var(--txt-clr);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#title {
-    padding: 10px 15px;
-    margin: 10px;
-    text-align: center;
-    border-style: none;
-    border-radius: 15px;
-    background-color: #212121;
-    box-shadow: 1px 1px 5px #000000;
-}
-
-#contacts {
-    width: 85vw;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    flex-wrap: wrap;
-}
-
-#contacts div {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    padding: 5px 10px;
-    border-style: none;
-    border-radius: 15px;
-    background-color: #212121;
-    box-shadow: 1px 1px 5px #000000;
 }
