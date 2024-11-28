@@ -1,11 +1,8 @@
 :root {
     --bg-clr: #FFFFFF;
     --light-bg-clr: #EEEEEE;
-    --dark-bg-clr: #303030;
-    --light-dark-bg-clr: #444444;
     --hvr-clr: #f0f0f0;
-    --light-txt-clr: #000000;
-    --dark-txt-clr: #FFFFFF;
+    --txt-clr: #000000;
     --accent-clr: #3333ff;
 }
 
@@ -50,7 +47,7 @@ nav a {
     height: 100%;
     display: flex;
     align-items: center;
-    color: var(--light-txt-clr);
+    color: var(--txt-clr);
     text-decoration: none;
 }
 
@@ -62,11 +59,11 @@ main {
     margin-top: 60px;
     padding: 5px;
     background-color: var(--bg-clr);
-    color: var(--light-txt-clr);
+    color: var(--txt-clr);
 }
 
 #calculatorBody {
-	background-color: var(--dark-bg-clr);
+	background-color: var(--light-bg-clr);
 	border-radius: 5px;
 	width: 249px;
 	margin: auto;
@@ -88,8 +85,8 @@ main {
 	margin: 4.491px;
 	margin-top: 4px;
 	margin-bottom: 4px;
-	color: var(--dark-txt-clr);
-	background-color: var(--light-dark-bg-clr);
+	color: var(--txt-clr);
+	background-color: var(--bg-clr);
 }
 
 .bButtons {
@@ -101,14 +98,14 @@ main {
 	margin: 4.491px;
 	margin-top: 4px;
 	margin-bottom: 4px;
-	color: var(--dark-txt-clr);
+	color: var(--txt-clr);
 	background-color: var(--accent-clr);
 }
 
 .buttons:active {
 	border-style: solid;
 	border-width: 2px;
-	border-color: var(--light-dark-bg-clr);
+	border-color: var(--light-bg-clr);
 	box-shadow: 1px 1px 2px #111111 inset;
 }
 
@@ -127,8 +124,8 @@ main {
 	width: 239px;
 	height: 41px;
 	font-size: 28px;
-	color: var(--dark-txt-clr);
-	background-color: var(--light-dark-bg-clr);
+	color: var(--txt-clr);
+	background-color: var(--bg-clr);
 	text-align: right;
 }
 
