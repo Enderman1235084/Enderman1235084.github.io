@@ -66,10 +66,10 @@ main {
     background-color: var(--bg-clr);
     color: var(--txt-clr);
     margin-top: 60px;
-    padding: 5px;
+    padding: 15px 10px;
 }
 
-#about h2 {
-    text-align: center;
-    color: var(--txt-clr);
+p {
+    margin: 10px 0;
+    width: 75vw;
 }
