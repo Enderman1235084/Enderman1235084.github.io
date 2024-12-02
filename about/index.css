@@ -1,7 +1,8 @@
 :root {
     --hvr-clr: #f1f1f1;
-    --dark-bg-clr: #EEEEEE;
     --bg-clr: #FFFFFF;
+    --dark-bg-clr: #EEEEEE;
+    --darker-bg-clr: #DDDDDD;
     --txt-clr: #000000;
     --accent-clr: #0000ff;
 }
