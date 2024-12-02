@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-    background-color: var(--bg-clr);
+    background-color: var(--dark-bg-clr);
     position: fixed;
     top: 0;
     left: 0;
