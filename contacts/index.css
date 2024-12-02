@@ -1,5 +1,7 @@
 :root {
     --bg-clr: #FFFFFF;
+    --dark-bg-clr: #EEEEEE;
+    --darker-bg-clr: #DDDDDD;
     --hvr-clr: #f1f1f1;
     --txt-clr: #000000;
     --accent-clr: #0000ff;
@@ -19,7 +21,7 @@ body {
 }
 
 nav {
-    background-color: var(--bg-clr);
+    background-color: var(--dark-bg-clr);
     position: fixed;
     top: 0;
     left: 0;
