@@ -21,13 +21,13 @@ body {
 }
 
 nav {
+    background-color: var(--dark-bg-clr);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 60px;
     box-shadow: 0px 0px 5px #000000;
-    background-color: var(--dark-bg-clr);
 }
 
 nav ul {
