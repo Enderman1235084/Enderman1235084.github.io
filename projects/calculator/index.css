@@ -118,7 +118,7 @@ main {
 }
 
 #resultWindow {
-    overflow: scroll;
+    overflow-x: scroll;
 	border-style: none;
 	border-radius: 10px;
 	margin-bottom: 0px;
